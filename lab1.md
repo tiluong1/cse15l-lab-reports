@@ -23,6 +23,7 @@ cat: no error
 File
 ![image](s3.png)
 cd: the file is not a directory
+
 ls: lists the Hello.java file
 cat: reads what information was in Hello.java file
 cd: no error
