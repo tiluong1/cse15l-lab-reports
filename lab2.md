@@ -14,8 +14,9 @@ Messages:
 - the values of the list array and the Ind field change as a result of this specific request. The "i like playing volleyball" message is added to the list at the appropriate position, and Ind is updated to reflect the position for the next message.
 
 Part 2:
-Path to the private key:
-Path to the public key:
+![image](s11.png):
+Path to the private key
+Path to the public key
 
 
 
