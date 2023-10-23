@@ -15,9 +15,9 @@ Messages:
 
 Part 2:
 
-Path to the private key
-Path to the public key
+Path to the private and public key:
 
+![image](s13.png)
 
 
 ![image](s12.png)
