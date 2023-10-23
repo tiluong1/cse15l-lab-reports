@@ -13,6 +13,10 @@ Messages:
 - A relevant argument in this case is url which represents the URL of the HTTP request. Values of relevant fields include "list" and "Ind". List represents the array of strings, which is used to store messages. Ind represents the index where the next message will be added to the list array.
 - the values of the list array and the Ind field change as a result of this specific request. The "i like playing volleyball" message is added to the list at the appropriate position, and Ind is updated to reflect the position for the next message.
 
+Part 2:
+Path to the private key:
+Path to the public key
+
 
 
 
