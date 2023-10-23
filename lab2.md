@@ -15,9 +15,11 @@ Messages:
 
 Part 2:
 Path to the private key:
-Path to the public key
+Path to the public key:
 
 
+
+![image](s10.png)
 
 
 
