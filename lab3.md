@@ -19,3 +19,4 @@ ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{3}, input 1};
 
 Symptom
+![image](screen1.png) 
