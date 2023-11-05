@@ -34,7 +34,7 @@ The issue of the orignal code was that it was trying to reverse the array by ite
 Part 2
 
 I asked AI to list 4 different basic command line operations for the find command and the output was 
--name, -size -regex, -type
+-name,  -regex, -type, -size
 
 Using find -name with ./techincal:
 find ./technical -name "*"
@@ -54,6 +54,23 @@ Output:
 The usage of find -name would look through the enitre ./techincal directory for all the files and output of them. The find ./techincal  -name "reports" would look for all the files that are in the ./technical directory that have "reports" insde of the name of the path or file. This is more convenient for searching in a directory, so we don't have to manually search for a file we might want to use. 
 
  Source: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/ 
+
+Using find -type with ./technical:
+find ./technical -type f"
+Output:
+./technical/document.pdf
+./technical/image.jpg
+./technical/file.txt
+
+find ./technical -type f -name "*.txt"
+Output:
+./technical/files1.txt
+./technical/files2.txt
+./technical/files3.txt
+
+The usage would normally find all files that are within the technical directory. This helps us find files easier instead of focusing on a specific type. For example, in a .txt we can look for a .pdf as well. find ./technical -type f -name "*.txt" would help look for all .txt files in ./techincal which is convenient for finding a specific type of file. 
+
+Source: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/ 
 
 
 Using find -size with ./technical:
@@ -86,19 +103,4 @@ Output:
 The usage of find -regex would search for a file with a corresponding number if a specific range, which helps to find multiple occurrences of a file that belongs in a certain group. But we only want a certain index range. find-regex with ./technical: would find directories that include the word playing that also has at least one follow-up word. This is useful for finding a directory with more than one version of in the form of an ending term but a similiar start term. 
 
 
-Using find -type with ./technical:
-find ./technical -type f"
-Output:
-./technical/document.pdf
-./technical/image.jpg
-./technical/file.txt
 
-find ./technical -type f -name "*.txt"
-Output:
-./technical/files1.txt
-./technical/files2.txt
-./technical/files3.txt
-
-The usage would normally find all files that are within the technical directory. This helps us find files easier instead of focusing on a specific type. For example, in a .txt we can look for a .pdf as well. find ./technical -type f -name "*.txt" would help look for all .txt files in ./techincal which is convenient for finding a specific type of file. 
-
-Source: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/ 
