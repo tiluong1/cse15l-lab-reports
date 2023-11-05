@@ -20,6 +20,11 @@ assertArrayEquals(new int[]{3}, input 1};
 
 
 
+Symptom
+![image](screen3.png) 
+![image](screen4.png) 
+
+
 
 The bug
 
