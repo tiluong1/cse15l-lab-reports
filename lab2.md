@@ -18,11 +18,10 @@ Path to the private:
 ![image](screen6.png)
 
 Path to public/ logging into ieng6 without password:
+![image](s13.png)
 ![image](screen7.png)
 
 
-
-![image](s13.png)
 
 
 
