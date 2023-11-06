@@ -17,7 +17,7 @@ Part 2:
 Path to the private:
 ![image](screen6.png)
 
-Path to public:
+Path to public/ logging into ieng6 without password:
 ![image](screen7.png)
 
 
