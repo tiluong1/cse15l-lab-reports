@@ -17,6 +17,9 @@ Part 2:
 Path to the private:
 ![image](screen6.png)
 
+Path to public:
+![image](screen7.png)
+
 ![image](s13.png)
 
 
