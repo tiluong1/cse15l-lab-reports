@@ -14,7 +14,8 @@ Messages:
 
 Part 2:
 
-Path to the private and public key:
+Path to the private:
+![image](screen6.png)
 
 ![image](s13.png)
 
