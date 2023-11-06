@@ -25,7 +25,6 @@ Path to public:
 ![image](s13.png)
 
 
-![image](s12.png)
 
 
 
