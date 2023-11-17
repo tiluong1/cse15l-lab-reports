@@ -10,8 +10,7 @@ An input that doesn't induce a failure
 
 
 Symptom
-![image](screen3.png) 
-![image](screen4.png) 
+
 
 
 
