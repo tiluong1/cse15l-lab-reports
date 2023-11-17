@@ -10,8 +10,8 @@ An input that doesn't induce a failure
 
 
 Symptom
-
-
+![image](ss8.png) 
+![image](ss7.png) 
 
 
 The bug
