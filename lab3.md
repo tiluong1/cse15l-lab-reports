@@ -27,8 +27,17 @@ The issue of the orignal code was that it was trying to reverse the array by ite
 
 Part 2
 
-I asked AI to list 4 different basic command line operations for the find command and the output was 
--name,  -regex, -type, -size
+I chose to look moe at the command less. The less command shows the contents of the file passed as an argument one screen at a time. There are various options that can be used with this command, each of which modifies the output.
+
+-N
+-N=provides line numbers for lines in the files, which can help identify certain statements in .txt files. However, this command will only work on files.
+
+Input:
+![image](ss5.png) 
+Output:
+![image](ss6.png) 
+
+Input
 
 Using find -name with ./techincal:
 find ./technical -name "*"
