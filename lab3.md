@@ -34,11 +34,13 @@ The issue of the orignal code was that it was trying to reverse the array by ite
 
 Part 2
 
-I chose to look at the 4 different basic command line operations for the find command. The output was : -name, -regex, -type, -size. 
-
-
-
-
+I chose to look at the 4 different basic command line operations for the find command. 
+I asked ChatGpt what the 4 different basic command line operations for the find find command.
+The output that Chatpgpt gave me was: 
+-name
+-regex
+-type
+-size
 
 
 Using find -name with ./techincal:
