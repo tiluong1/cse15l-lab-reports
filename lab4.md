@@ -26,11 +26,12 @@ vim Li<tab>.java<enter>, 43j, 11k, x, i, 2, <esc>, :wq<enter>. Here, I decided n
 8.Run the tests, demonstrating that they now succeed
  ![image](screen6.png)
 
- bash test.sh<enter>
+ bash test.sh<Enter>
 
 9. Commit and push the resulting change to your GitHub account
 
-
-git add Li<tab>.java<enter>. Used tab for the same reason as in step 7.
-git commit Li<tab>.java -m "fixed bug"<enter>. Used tab for the same reason as in step 7, and decided to use the -m shortcut to include the message in the line to save time.
-git push<enter>
+ ![image](screen7.png)
+ 
+git add Li<tab>.java<enter>. Used tab in order to fill up the rest of the file name. 
+git commit <Enter>
+Runs the tests, demonstrating that they fail Edit the code file to fix the failing test Run the tests, demonstrating that they now succeed Commit and push the resulting change to your Github account (you can pick any commit message!)
