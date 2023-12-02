@@ -53,3 +53,7 @@ Used < tab > in order to fill up the rest of the file name.
 git commit Li <tab>.java<Enter>
 ~~~
 Runs the tests, demonstrating that they fail Edit the code file to fix the failing test Run the tests, demonstrating that they now succeed Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+~~~
+git push <Enter>
+~~~
