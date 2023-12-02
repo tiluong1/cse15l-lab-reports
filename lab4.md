@@ -38,7 +38,8 @@ bash test.sh <Enter>
 9. Commit and push the resulting change to your GitHub account
 
  ![image](screen7.png)
- 
+
+ Keys pressed:
 ~~~
 git add Li<tab>.java<enter>
 ~~~
