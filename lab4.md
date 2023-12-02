@@ -39,6 +39,7 @@ bash test.sh <Enter>
 
  ![image](screen7.png)
 
+![image](screen23.png)
  Keys pressed:
 ~~~
 git add Li<tab>.java<enter>
