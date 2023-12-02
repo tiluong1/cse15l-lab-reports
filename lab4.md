@@ -37,13 +37,18 @@ bash test.sh <Enter>
 
 9. Commit and push the resulting change to your GitHub account
 
- ![image](screen7.png)
+
 
 ![image](ss23.png)
+ ![image](screen7.png)
  Keys pressed:
 ~~~
-git add Li<tab>.java<enter>
+git add Li<tab>.java<Enter>
 ~~~
+
 Used < tab > in order to fill up the rest of the file name. 
-git commit <Enter>
+
+~~~
+git commit Li <tab>.java<Enter>
+~~~
 Runs the tests, demonstrating that they fail Edit the code file to fix the failing test Run the tests, demonstrating that they now succeed Commit and push the resulting change to your Github account (you can pick any commit message!)
