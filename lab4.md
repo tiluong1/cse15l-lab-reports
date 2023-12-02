@@ -40,6 +40,7 @@ bash test.sh <Enter>
 
 
 ![image](ss23.png)
+![image](ss25.png)
 ![image](screen7.png)
  
  Keys pressed:
