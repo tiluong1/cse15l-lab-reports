@@ -16,11 +16,23 @@ Lab Report 5
  
 4) file and directory structure: ArrayExampes.class, ListExamples.class,ArrayTests.class, Node.class, StringChecker.class, FileExample.class, LinkedList.class, LinkedListExample.java, ArrayExamples.java, ListExamples.java, FileExample.java, ArrayTests.java, test.sh
 
-   files that changed: ArrayExamples.java
+files that changed: ArrayExamples.java
+contents of each file before fixing the bug:
 ![image](ss17.png)
 ![image](ss18.png)
+
+The full command line you ran to trigger the bug : ```bash test.sh ```
 ![image](ss22.png)
 
+A description of what to edit to fix the big: 
+In order to fix the bug, we would change the line ``` arr[i] = arr[arr.length - i-2]; ``` to ``` test [i] = arr[arr.length - i -1]; ```. We do this because we want to change the arr to test in order to have a temporary array to store the reversed values. Then, put the resulting values from the temporary back to the original array.  Thus, we need another for loop:
+
+~~~
+for( int i = 0; i < arr.length; i += 1) {
+         arr[i] = test[i];
+       }
+~~~
+The for loop will be placed after we do the actual reverse of the array. 
 
 REFLECTION
 
