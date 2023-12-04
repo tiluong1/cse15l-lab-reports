@@ -1,7 +1,7 @@
 Lab Report 5
  ![image](ss10.png)
  ![image](ss11.png)
- ![image](ss12.png)
+ 
   1) Moriah: Hello! I am writing this post in order to get help on my week 4 lab report code. I have an error in ArrayExamples.java, specifically in the function reverseInPlace. I have an image of the symptoms and error of the code that I am testing. May I get any input in what is incorrect?
 
 2) TA: Hello Moriah! After looking at your code, I can help you using your examples. I see that you have an array of {3,8} and that the expected output is {8,3}. Some questions that I would like you to think about is what the exact index are the elements 3 and 8. What is the length of the array? How would you find that position in the array? I would suggest using a for loop in order to iterate throught the code. I hope that helps and good luck!
