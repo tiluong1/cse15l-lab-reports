@@ -19,7 +19,7 @@ Lab Report 5
    files that changed: ArrayExamples.java
 ![image](ss17.png)
 ![image](ss18.png)
-![image](ss19.png)
+![image](ss22.png)
 
 
 REFLECTION
